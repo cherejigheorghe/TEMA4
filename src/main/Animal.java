@@ -6,6 +6,11 @@ public class Animal {
 	public String culoareAnimal;
 	public int varstaAnimal;
 	
+	public Animal(String tipAnimal, String culoareAnimal, int varstaAnimal) {
+		this.tipAnimal = tipAnimal;
+		this.culoareAnimal = culoareAnimal;
+		this.varstaAnimal = varstaAnimal;
+	}
 	public String getType(){	
 		return tipAnimal;
 	}

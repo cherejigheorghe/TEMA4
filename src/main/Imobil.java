@@ -5,6 +5,12 @@ public class Imobil {
 	public int numarEtaje;
 	public double pretImobil;
 	
+	
+	public Imobil(String tipCasa, int numarEtaje, double pretImobil) {
+		this.tipCasa = tipCasa;
+		this.numarEtaje = numarEtaje;
+		this.pretImobil = pretImobil;
+	}
 	public String getType(){	
 		return tipCasa;
 	}
